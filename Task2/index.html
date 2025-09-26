@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="photo.jpg" alt="logo">
+        <h2>Persona</h2>
+    </header>
+    <form>
+        <div class="heading">Registration</div>
 
+        <label for="Fullname">
+            <p class="lebel_text">Full Name</p>
+            <input type="text" id="Fullname" class="take_input">
+        </label>
+        <label for="phoneNumber">
+            <p class="lebel_text">Phone Number</p>
+            <input type="text" id="phoneNumber" class="take_input">
+        </label>
+        <label for="Email">
+            <p class="lebel_text">Email</p>
+            <input type="Email" id="Email" class="take_input">
+        </label>
+        <label for="select_year">
+            <p class="lebel_text">Year</p>
+            <div>
+                <input type="radio" class="select_year" name="year"> First
+            </div>
+            <div>
+                <input type="radio" class="select_year" name="year"> Second
+            </div>
+            <div>
+                <input type="radio" class="select_year" name="year"> Third
+            </div>
+            <div>
+                <input type="radio" class="select_year" name="year"> Final
+            </div>
+        </label>
+        <label for="ClubInterest">
+            <textarea id="ClubInterest" placeholder="Here, You can tell why are you Joining this Club ?" style="resize: vertical;" spellcheck="false"></textarea>
+        </label>
+
+        <label for="submit">
+            <input type="button" id="submit" value="Submit">
+        </label>
+    </form>
+    <footer>Designed and Developed by Brijesh</footer>
+</body>
+</html>
